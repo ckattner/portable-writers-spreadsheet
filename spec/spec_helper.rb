@@ -8,6 +8,7 @@
 #
 
 require 'pry'
+require 'securerandom'
 
 unless ENV['DISABLE_SIMPLECOV'] == 'true'
   require 'simplecov'

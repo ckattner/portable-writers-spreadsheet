@@ -7,10 +7,12 @@
 # LICENSE file in the root directory of this source tree.
 #
 
+require 'portable'
+
 module Portable
   module Writers
-    class Spreadsheet
-      VERSION = '0.0.1'
+    class Spreadsheet < Base
+      VERSION = '1.0.0'
     end
   end
 end

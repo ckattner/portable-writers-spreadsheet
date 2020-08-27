@@ -2,8 +2,6 @@ env:
   global:
     - CC_TEST_REPORTER_ID=55ab3825e20978c06f86c9a5aaaa414ad9cedc95f5ed1f11b84695e52e20b059
 language: ruby
-services:
-  - mysql
 rvm:
   # Build on the latest stable of all supported Rubies (https://www.ruby-lang.org/en/downloads/):
   - 2.5.8

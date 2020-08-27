@@ -28,7 +28,8 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.5'
 
-  s.add_dependency('portable', '=1.0.0-alpha.4')
+  s.add_dependency('fast_excel', '~>0.3')
+  s.add_dependency('portable', '=1.0.0-alpha.7')
 
   s.add_development_dependency('guard-rspec', '~>4.7')
   s.add_development_dependency('pry', '~>0')
