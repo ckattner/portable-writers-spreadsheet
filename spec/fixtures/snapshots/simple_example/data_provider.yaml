@@ -24,7 +24,7 @@ data_sources:
         funny: null
         status: 2
         ignore: me
-    fields:
+    keys:
       - first
       - last
       - dob
@@ -33,7 +33,7 @@ data_sources:
       - ignore
 
   - name: sheet2
-    fields:
+    keys:
       - make
       - model
       - year

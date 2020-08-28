@@ -51,7 +51,7 @@ module Portable
       end
 
       def write_data_table(worksheet, sheet, data_source, time)
-        row_renderer = sheet_renderer.row_renderer(sheet.name, data_source.fields)
+        row_renderer = sheet_renderer.row_renderer(sheet.name, data_source.keys)
 
         worksheet.append_row(row_renderer.headers) if sheet.include_headers?
 

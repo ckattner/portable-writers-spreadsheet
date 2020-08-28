@@ -12,7 +12,7 @@ require 'portable'
 module Portable
   module Writers
     class Spreadsheet < Base
-      VERSION = '1.0.0'
+      VERSION = '1.0.1'
     end
   end
 end
